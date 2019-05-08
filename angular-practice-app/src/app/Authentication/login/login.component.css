@@ -1,0 +1,43 @@
+#loginFrm {
+  width: 300px;
+  text-align:left;
+  display:inline-block;
+  position: relative;
+  left: 40%;
+  top: 20px;
+  background-color:rgb(0, 0, 0);
+}
+#emailLab {
+  color: whitesmoke;
+  font-weight: bold;
+}
+#passwordLab {
+  font-weight: bold;
+  color: whitesmoke;
+}
+#loginBtn {
+  position: relative;
+  left: 125px;
+  font-weight:bold;
+  width: 87.39px;
+}
+#registerBtn {
+  font-weight: bold;
+}
+#username {
+  margin: 0px;
+  padding: 0px;
+}
+#password {
+  margin: 0px;
+  padding: 0px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+#loginHeader {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20.5px;
+  text-align: center;
+}

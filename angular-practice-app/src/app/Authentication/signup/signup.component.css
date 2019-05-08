@@ -1,0 +1,51 @@
+#signupFrm {
+  width: 300px;
+  text-align:left;
+  display:inline-block;
+  position: relative;
+  left: 40%;
+  top: 20px;
+  background-color:rgb(0, 0, 0);
+}
+#nameLab {
+  font-weight: bold;
+  color: whitesmoke;
+}
+#emailLab {
+  color: whitesmoke;
+  font-weight: bold;
+}
+#passwordLab {
+  font-weight: bold;
+  color: whitesmoke;
+}
+#cancelBtn {
+  position: relative;
+  font-weight:bold;
+  width: 78.7px;
+}
+#signupBtn {
+  position: relative;
+  left: 144px;
+  font-weight:bold;
+}
+#fullName {
+  margin: 0px;
+  padding: 0px;
+}
+#username {
+  margin: 0px;
+  padding: 0px;
+}
+#password {
+  margin: 0px;
+  padding: 0px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+#signupHeader {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20.5px;
+}

@@ -1,0 +1,10 @@
+<div id='feedbackMain'>
+  <h4 style='position:relative; top:20px; color:white; text-align:center; font-weight:bold;'>Have Issues or Suggestions? Submit Your Feedback Below, We'd Love to Hear From You!</h4>
+  <form id='feedbackFrm' [formGroup]="feedbackForm">
+    <div class="form-group" id='textAreaDiv'>
+      <label for="feedback" id='feedbackLab'>Type in your feedback here:</label>
+      <textarea class="form-control" id="feedback" formControlName="feedback" placeholder="Enter your feedback" required></textarea>
+    </div>
+    <button type="button" class="btn btn-primary" id='feedbackBtn' [disabled]="feedbackForm.invalid" (click)='onFeedback();'>Submit</button>
+  </form>
+</div>

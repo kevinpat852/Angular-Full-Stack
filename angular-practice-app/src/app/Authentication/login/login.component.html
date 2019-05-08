@@ -1,0 +1,15 @@
+<form id='loginFrm' [formGroup]="loginForm">
+  <div class="form-group" id='logHeadDiv'>
+    <p id='loginHeader'>Login for Instant Access</p>
+  </div>
+  <div class="form-group" id='emailDiv'>
+    <label for="username" id='emailLab'>Email address</label>
+    <input type="email" class="form-control" id="username" formControlName="username" placeholder="Enter your email" required>
+  </div>
+  <div class="form-group">
+    <label for="password" id='passwordLab'>Password</label>
+    <input type="password" class="form-control" id="password" formControlName="password" placeholder="Enter your password" required>
+  </div>
+  <button type="button" class="btn btn-secondary" id='registerBtn' [routerLink]="['/signup']">Register</button>
+  <button type="submit" class="btn btn-primary" id='loginBtn' [disabled]="loginForm.invalid" (click)='onLogin();'>Login</button>
+</form>

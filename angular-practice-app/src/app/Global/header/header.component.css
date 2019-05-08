@@ -1,0 +1,136 @@
+.navbar {
+  background-color: #0D43E8;
+  font-weight: bold;
+  padding:0px;
+}
+#discopiaBtn {
+  position: absolute;
+  right:1065px;
+  height: 72px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  background-color: #0D43E8;
+  color: whitesmoke;
+  border: 0px;
+  -webkit-appearance: none;
+  line-height: 70px;
+}
+#discopiaBtn:hover {
+  background-color:rgb(2, 2, 207);
+  text-decoration: none;
+}
+#artistsBtn {
+  position: absolute;
+  right:965px;
+  height: 72px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  background-color: #0D43E8;
+  color: whitesmoke;
+  border: 0px;
+  -webkit-appearance: none;
+  line-height: 70px;
+}
+#artistsBtn:hover {
+  background-color:rgb(2, 2, 207);
+  text-decoration: none;
+}
+#helpBtn {
+  position: absolute;
+  right:865px;
+  height: 72px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  background-color: #0D43E8;
+  color: whitesmoke;
+  border: 0px;
+  -webkit-appearance: none;
+  line-height: 70px;
+  padding: 0px;
+}
+#helpBtn:hover {
+  background-color:rgb(2, 2, 207);
+  text-decoration: none;
+  cursor: pointer;
+}
+#feedbackBtn {
+  position: absolute;
+  left: 1065px;
+  height: 72px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  background-color: #0D43E8;
+  color: whitesmoke;
+  border: 0px;
+  -webkit-appearance: none;
+  line-height: 70px;
+}
+#feedbackBtn:hover {
+  background-color:rgb(2, 2, 207);
+  text-decoration: none;
+}
+#FAQBtn {
+  position: relative;
+  left:25px;
+  height: 72px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  background-color: #0D43E8;
+  color: whitesmoke;
+  border: 0px;
+  -webkit-appearance: none;
+  line-height: 70px;
+}
+#FAQBtn:hover {
+  background-color:rgb(2, 2, 207);
+  text-decoration: none;
+}
+#contactBtn {
+  position: relative;
+  right:265px;
+  height: 72px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  background-color: #0D43E8;
+  color: whitesmoke;
+  border: 0px;
+  -webkit-appearance: none;
+  line-height: 70px;
+}
+#contactBtn:hover {
+  background-color:rgb(2, 2, 207);
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+#logoutBtn {
+  position: relative;
+  height: 72px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  background-color: #0D43E8;
+  color: whitesmoke;
+  border: 0px;
+  -webkit-appearance: none;
+  line-height: 70px;
+}
+#logoutBtn:hover {
+  background-color:rgb(2, 2, 207);
+  text-decoration: none;
+  cursor: pointer;
+}

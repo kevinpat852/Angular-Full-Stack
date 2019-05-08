@@ -1,0 +1,28 @@
+#feedbackFrm {
+  width: 300px;
+  text-align:left;
+  display:inline-block;
+  position: relative;
+  left: 40%;
+  top: 30px;
+  background-color:rgb(0, 0, 0);
+}
+#feedbackLab {
+  color: whitesmoke;
+  font-weight: bold;
+}
+#feedbackBtn {
+  position: relative;
+  font-weight:bold;
+  width: 87.39px;
+}
+#feedback {
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+  padding-left:5px;
+  padding-right:5px;
+}
+.form-group {
+  margin-bottom: 10px;
+}

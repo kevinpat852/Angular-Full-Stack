@@ -1,0 +1,19 @@
+<form id='signupFrm' [formGroup]="signupForm">
+  <div class="form-group" id='signHeadDiv'>
+    <p id='signupHeader'>Signup and Become a Member</p>
+  </div>
+  <div class="form-group" id='nameDiv'>
+    <label for="fullName" id='nameLab'>Full Name</label>
+    <input type="text" class="form-control" id="fullName" formControlName="fullName" placeholder="Enter your full name" required>
+  </div>
+  <div class="form-group" id='emailDiv'>
+    <label for="username" id='emailLab'>Email address</label>
+    <input type="email" class="form-control" id="username" formControlName="username" placeholder="Enter your email" required>
+  </div>
+  <div class="form-group">
+    <label for="password" id='passwordLab'>Password</label>
+    <input type="password" class="form-control" id="password" formControlName="password" placeholder="Enter your password" required>
+  </div>
+  <button type="button" class="btn btn-secondary" id='cancelBtn' [routerLink]="['/login']">Cancel</button>
+  <button type="submit" class="btn btn-primary" id='signupBtn' [disabled]="signupForm.invalid" (click)='onSignup();'>Signup</button>
+</form>

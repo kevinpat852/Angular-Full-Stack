@@ -1,0 +1,137 @@
+#artistsMain {
+  z-index: 1;
+}
+#artistsIcons {
+  text-align: center;
+}
+#eminemIco {
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  width: 250px;
+  height: 200px;
+}
+#eminemIco:hover {
+  cursor: pointer;
+  width:255px;height:205px;
+}
+#eminemIco:active {
+  cursor: pointer;
+  width:240px;height:190px;
+}
+#arianaIco {
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  width: 250px;
+  height: 200px;
+}
+#arianaIco:hover {
+  cursor: pointer;
+  width:255px;height:205px;
+}
+#arianaIco:active {
+  cursor: pointer;
+  width:240px;height:190px;
+}
+#drakeIco {
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  width: 250px;
+  height: 200px;
+}
+#drakeIco:hover {
+  cursor: pointer;
+  width:255px;height:205px;
+}
+#drakeIco:active {
+  cursor: pointer;
+  width:240px;height:190px;
+}
+#halseyIco {
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  width: 250px;
+  height: 200px;
+}
+#halseyIco:hover {
+  cursor: pointer;
+  width:255px;height:205px;
+}
+#halseyIco:active {
+  cursor: pointer;
+  width:240px;height:190px;
+}
+#aboutEminem{
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width:250px;
+  top: 300px;
+  left: 100px;
+}
+#aboutAriana{
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width:250px;
+  top: 300px;
+  left: 400px;
+}
+#aboutDrake{
+  position:absolute;
+  width:250px;
+  padding: 0px;
+  margin: 0px;
+  top: 300px;
+  left: 700px;
+}
+#aboutHalsey{
+  position: absolute;
+  width:250px;
+  padding: 0px;
+  margin: 0px;
+  top: 300px;
+  left:1000px;
+}
+.hidden {
+  display:none;
+}
+#aboutArtists {
+  width: 1263px;
+}
+
+#eminemLab {
+  transform: rotate(315deg);
+  position: relative;
+  font-weight:800;
+  color:whitesmoke;
+  bottom:50px;
+  left:40px;
+}
+#arianaLab {
+  transform: rotate(315deg);
+  position: relative;
+  font-weight:800;
+  color:whitesmoke;
+  bottom:50px;
+  left:30px;
+}
+#drakeLab {
+  transform: rotate(315deg);
+  position: relative;
+  font-weight:800;
+  color:whitesmoke;
+  bottom:50px;
+  left:30px;
+}
+#halseyLab {
+  transform: rotate(315deg);
+  position: relative;
+  font-weight:800;
+  color:whitesmoke;
+  bottom:50px;
+  left:30px;
+}
